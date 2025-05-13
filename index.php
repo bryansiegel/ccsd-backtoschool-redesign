@@ -1,6 +1,6 @@
 <?php include('includes/head.php'); ?>
 
-<body class="defult-home">
+<body class="default-home">
 
 <!--Full width nav Start-->
 <?php include('includes/nav.php'); ?>
