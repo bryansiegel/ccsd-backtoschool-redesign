@@ -40,25 +40,6 @@
                             </div>
                         </div>
                     </div>
-                    <!--
-
-                                                    <div class="row align-items-center no-gutter white-bg blog-item mb-30 " data-wow-delay="400ms" data-wow-duration="2000ms">
-                                                        <div class="col-md-6">
-                                                            <div class="image-part">
-                                                                <a href="response-protocol.html"><img src="assets/images/blog/StandardResponse.jpg" alt=""></a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6">
-                                                            <div class="blog-content">
-
-                                                                <h3 class="title" style="text-transform: uppercase"><a href="response-protocol.html">Standard Response Protocol</a></h3>
-                                                                <div class="btn-part">
-                                                                    <a class="readon-arrow" href="response-protocol.html">Read More</a>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                    -->
 
                     <div class="row align-items-center no-gutter white-bg blog-item mb-30 " data-wow-delay="400ms" data-wow-duration="2000ms">
                         <div class="col-md-6">
@@ -95,12 +76,6 @@
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
 
                 <div class="col-lg-4 order-last rs-about style1 pb-100 md-pb-70">
                     <div class="notice-bord style1">
@@ -172,22 +147,6 @@
 
 
             </div>
-            <!-- Blog Section End -->
-
-            <!-- Newsletter section start -->
-            <!--
-                             <a href="https://clark-county-school-district.read.axioshq.com/signup/community-newsletter" target="_blank">
-                             <div class="rs-newsletter style1 mb--124 sm-mb-0 sm-pb-70">
-                                <div class="container">
-                                <div class="newsletter-wrap">
-                                        <div class="row y-middle">
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-            -->
         </div>
     </div>
 
@@ -204,8 +163,6 @@
                         </div>
                     </div>
                 </div>
-
-
                 <div class="row">
                     <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
                         <h4 class="widget-title">Useful Links</h4>

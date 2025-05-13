@@ -13,7 +13,9 @@
     <!-- About Section  -->
     <?php include('includes/homepage/sup-about-section.php'); ?>
 </div>
-<div class="clear"><p>&nbsp;</p></div>
+
+
+<div class="clear"></div>
 
 
 <!-- CTA Section  -->
