@@ -1,372 +1,20 @@
-<!DOCTYPE html>
-<html lang="zxx">
-<head>
-    <!-- meta tag -->
-    <meta charset="utf-8">
-    <title>Educavo - Education HTML Template</title>
-    <meta name="description" content="">
-    <!-- responsive tag -->
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- favicon -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav-orange.png">
-    <!-- Bootstrap v5.0.2 css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <!-- font-awesome css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-    <!-- animate css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- off canvas css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css">
-    <!-- linea-font css -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/linea-fonts.css">
-    <!-- flaticon css  -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css">
-    <!-- Main Menu css -->
-    <link rel="stylesheet" href="assets/css/rsmenu-main.css">
-    <!-- spacing css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
-    <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
-    <!-- responsive css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+<?php include('includes/head.php') ?>
 <body class="defult-home">
 
 <!--Preloader area start here-->
-<div id="loader" class="loader orange-color">
-    <div class="loader-container">
-        <div class='loader-icon'>
-            <img src="assets/images/pre-logo1.png" alt="">
-        </div>
-    </div>
+<!--
+        <div id="loader" class="loader orange-color">
+            <div class="loader-container">
+                <div class='loader-icon'>
+                    <img src="assets/images/pre-logo1.png" alt="">
+                </div>
+            </div
+-->
 </div>
 <!--Preloader area End here-->
 
 <!--Full width header Start-->
-<div class="full-width-header header-style1 home8-style4">
-    <!--Header Start-->
-    <header id="rs-header" class="rs-header">
-        <!-- Topbar Area Start -->
-        <div class="topbar-area home8-topbar">
-            <div class="container">
-                <div class="row y-middle">
-                    <div class="col-md-7">
-                        <ul class="topbar-contact">
-                            <li>
-                                <i class="flaticon-email"></i>
-                                <a href="mailto:support@rstheme.com">support@rstheme.com</a>
-                            </li>
-                            <li>
-                                <i class="flaticon-location"></i>
-                                374 William S Canning Blvd, MA 2721, USA
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-5 text-end">
-                        <ul class="topbar-right">
-                            <li class="login-register">
-                                <i class="fa fa-sign-in"></i>
-                                <a href="login.html">Login</a>/<a href="register.html">Register</a>
-                            </li>
-                            <li class="btn-part">
-                                <a class="apply-btn" href="#">Apply Now</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Topbar Area End -->
-
-        <!-- Menu Start -->
-        <div class="menu-area menu-sticky">
-            <div class="container">
-                <div class="row y-middle">
-                    <div class="col-lg-2">
-                        <div class="logo-cat-wrap">
-                            <div class="logo-part">
-                                <a href="index.html">
-                                    <img src="assets/images/dark-logo.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 text-end">
-                        <div class="rs-menu-area">
-                            <div class="main-menu">
-                                <div class="mobile-menu">
-                                    <a class="rs-menu-toggle">
-                                        <i class="fa fa-bars"></i>
-                                    </a>
-                                </div>
-                                <nav class="rs-menu">
-                                    <ul class="nav-menu">
-                                        <li class="rs-mega-menu mega-rs menu-item-has-children"> <a href="index.html">Home</a>
-                                            <ul class="mega-menu">
-                                                <li class="mega-menu-container">
-                                                    <div class="mega-menu-innner">
-                                                        <div class="single-megamenu">
-                                                            <ul class="sub-menu">
-                                                                <li><a href="index.html">Main Demo</a> </li>
-                                                                <li><a href="index2.html">Online Course</a> </li>
-                                                                <li><a href="index3.html">University 01</a> </li>
-                                                                <li><a href="index4.html">E-Learning</a> </li>
-                                                                <li><a href="index5.html">Distance Learning</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="single-megamenu">
-                                                            <ul class="sub-menu last-sub-menu">
-                                                                <li><a href="index6.html">Personal Demo</a> </li>
-                                                                <li><a href="index7.html">Online Training</a> </li>
-                                                                <li><a href="index8.html">Online Learning</a> </li>
-                                                                <li><a href="index9.html">Kitchen Coach</a> </li>
-                                                                <li><a href="index10.html">University 02</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="single-megamenu">
-                                                            <ul class="sub-menu last-sub-menu">
-                                                                <li><a href="index11.html">Kindergarten 01</a> </li>
-                                                                <li><a href="index12.html">Freelancing Course</a> </li>
-                                                                <li><a href="index13.html">Gym Coach</a> </li>
-                                                                <li><a href="index14.html">Courses Archive</a> </li>
-                                                                <li><a href="index15.html">Courses Hub</a> </li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul> <!-- //.mega-menu -->
-                                        </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">About</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="about.html">About One</a> </li>
-                                                <li><a href="about2.html">About Two</a> </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Courses</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="course.html">Courses One</a> </li>
-                                                <li><a href="course2.html">Courses Two</a> </li>
-                                                <li><a href="course3.html">Courses Three</a> </li>
-                                                <li><a href="course4.html">Courses Four</a>
-                                                </li>
-                                                <li><a href="course5.html">Courses Five</a> </li>
-                                                <li><a href="course6.html">Courses Six</a> </li>
-                                                <li><a href="course-single.html">Courses Single</a> </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children current-menu-item">
-                                            <a href="#">Pages</a>
-                                            <ul class="sub-menu">
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Team</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="team.html">Team One</a></li>
-                                                        <li><a href="team2.html">Team Two</a></li>
-                                                        <li><a href="team-single.html">Team Single</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Event</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="events-style1.html">Event One</a></li>
-                                                        <li><a href="events-style2.html">Event Two</a></li>
-                                                        <li><a href="events-style3.html">Event Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Gallery</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="gallery-style1.html">Gallery One</a></li>
-                                                        <li><a href="gallery-style2.html">Gallery Two</a></li>
-                                                        <li><a href="gallery-style3.html">Gallery Three</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Shop</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="shop.html">Shop</a></li>
-                                                        <li><a href="shop-single.html">Shop Single</a></li>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                        <li><a href="checkout.html">Checkout</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children current-menu-item">
-                                                    <a href="#">Others</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="faq.html">FAQ</a></li>
-                                                        <li><a href="error.html">404 Page</a></li>
-                                                        <li><a href="login.html">Login</a></li>
-                                                        <li class="active"><a href="register.html">Register</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Blog</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="blog.html">Blog</a></li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Blog Sidebar</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="blog-left.html">Blog Left Sidebar</a></li>
-                                                        <li><a href="blog-right.html">Blog Right Sidebar</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="menu-item-has-children">
-                                                    <a href="#">Single Post</a>
-                                                    <ul class="sub-menu">
-                                                        <li><a href="blog-post-left.html">Post Left Sidebar</a></li>
-                                                        <li><a href="blog-post-right.html">Post Right Sidebar</a></li>
-                                                        <li><a href="blog-single.html">Full Width Post</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-
-                                        <li class="menu-item-has-children">
-                                            <a href="#">Contact</a>
-                                            <ul class="sub-menu">
-                                                <li><a href="contact.html">Contact One</a> </li>
-                                                <li><a href="contact2.html">Contact Two</a> </li>
-                                                <li><a href="contact3.html">Contact Three</a> </li>
-                                                <li><a href="contact4.html">Contact Four</a> </li>
-                                            </ul>
-                                        </li>
-                                    </ul> <!-- //.nav-menu -->
-                                </nav>
-                            </div> <!-- //.main-menu -->
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2 text-end">
-                        <div class="expand-btn-inner">
-                            <ul>
-                                <li>
-                                    <a class="hidden-xs rs-search" data-bs-toggle="modal" data-bs-target="#searchModal" href="#">
-                                        <i class="flaticon-search"></i>
-                                    </a>
-                                </li>
-                                <li class="icon-bar cart-inner no-border mini-cart-active">
-                                    <a class="cart-icon">
-                                        <!-- <span class="cart-count">2</span> -->
-                                        <i class="fa fa-shopping-bag"></i>
-                                    </a>
-                                    <div class="woocommerce-mini-cart text-start">
-                                        <div class="cart-bottom-part">
-                                            <ul class="cart-icon-product-list">
-                                                <li class="display-flex">
-                                                    <div class="icon-cart">
-                                                        <a href="#"><i class="fa fa-times"></i></a>
-                                                    </div>
-                                                    <div class="product-info">
-                                                        <a href="cart.html">Law Book</a><br>
-                                                        <span class="quantity">1 × $30.00</span>
-                                                    </div>
-                                                    <div class="product-image">
-                                                        <a href="cart.html"><img src="assets/images/shop/1.jpg" alt="Product Image"></a>
-                                                    </div>
-                                                </li>
-                                                <li class="display-flex">
-                                                    <div class="icon-cart">
-                                                        <a href="#"><i class="fa fa-times"></i></a>
-                                                    </div>
-                                                    <div class="product-info">
-                                                        <a href="cart.html">Spirit Level</a><br>
-                                                        <span class="quantity">1 × $30.00</span>
-                                                    </div>
-                                                    <div class="product-image">
-                                                        <a href="cart.html"><img src="assets/images/shop/2.jpg" alt="Product Image"></a>
-                                                    </div>
-                                                </li>
-                                            </ul>
-
-                                            <div class="total-price text-center">
-                                                <span class="subtotal">Subtotal:</span>
-                                                <span class="current-price">$85.00</span>
-                                            </div>
-
-                                            <div class="cart-btn text-center">
-                                                <a class="crt-btn btn1" href="cart.html">View Cart</a>
-                                                <a class="crt-btn btn2" href="checkout.html">Check Out</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                            <a id="nav-expander" class="nav-expander style2">
-                                <span class="dot1"></span>
-                                <span class="dot2"></span>
-                                <span class="dot3"></span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Menu End -->
-
-        <!-- Canvas Menu start -->
-        <nav class="right_menu_togle hidden-md">
-            <div class="close-btn">
-                <div id="nav-close">
-                    <div class="line">
-                        <span class="line1"></span><span class="line2"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="canvas-logo">
-                <a href="index.html"><img src="assets/images/dark-logo.png" alt="logo"></a>
-            </div>
-            <div class="offcanvas-text">
-                <p>We denounce with righteous indige nationality and dislike men who are so beguiled and demo  by the charms of pleasure of the moment data com so blinded by desire.</p>
-            </div>
-            <div class="offcanvas-gallery">
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/1.jpg"><img src="assets/images/gallery/1.jpg" alt=""></a>
-                </div>
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/2.jpg"><img src="assets/images/gallery/2.jpg" alt=""></a>
-                </div>
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/3.jpg"><img src="assets/images/gallery/3.jpg" alt=""></a>
-                </div>
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/4.jpg"><img src="assets/images/gallery/4.jpg" alt=""></a>
-                </div>
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/5.jpg"><img src="assets/images/gallery/5.jpg" alt=""></a>
-                </div>
-                <div class="gallery-img">
-                    <a class="image-popup" href="assets/images/gallery/6.jpg"><img src="assets/images/gallery/6.jpg" alt=""></a>
-                </div>
-            </div>
-            <div class="map-img">
-                <img src="assets/images/map.jpg" alt="">
-            </div>
-            <div class="canvas-contact">
-                <ul class="social">
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fa fa-pinterest-p"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-        <!-- Canvas Menu end -->
-    </header>
-    <!--Header End-->
-</div>
+<div w3-include-html="bts-header-nav-mega.html"></div>
 <!--Full width header End-->
 
 <!-- Main content Start -->
@@ -374,244 +22,281 @@
     <!-- Breadcrumbs Start -->
     <div class="rs-breadcrumbs breadcrumbs-overlay">
         <div class="breadcrumbs-img">
-            <img src="assets/images/breadcrumbs/2.jpg" alt="Breadcrumbs Image">
+            <img src="assets/images/breadcrumbs/registration.png" alt="Breadcrumbs Image">
         </div>
         <div class="breadcrumbs-text white-color">
-            <h1 class="page-title">Register</h1>
+            <h1 class="page-title">Registration</h1>
             <ul>
                 <li>
                     <a class="active" href="index.html">Home</a>
                 </li>
-                <li>Register</li>
+                <li>Important Information</li>
             </ul>
         </div>
     </div>
     <!-- Breadcrumbs End -->
 
-    <!-- Register Section -->
-    <section class="register-section pt-100 pb-100">
+    <!-- Intro Courses -->
+    <section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
         <div class="container">
-            <div class="register-box">
+            <div class="row clearfix">
+                <!-- Content Column -->
+                <div class="col-lg-8 md-mb-50">
+                    <!-- Intro Info Tabs-->
+                    <div class="intro-info-tabs">
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
 
-                <div class="sec-title text-center mb-30">
-                    <h2 class="title mb-10">Create New Account</h2>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-heading1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapse1">
+                                        Registration
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-heading1">
+                                    <div class="accordion-body">
+                                        <p><em>Registration Began April 15, 2024<br>
+                                                Classes Begin August 12, 2024</em></p>
+
+                                        <p>Parents/Guardians must register all new and returning students to the Clark County School District.</p>
+
+                                        <p>Registration is done through the CCSD online registration system. Parents/Guardians of currently enrolled students may complete online registration using their Infinite Campus account. New families to CCSD may register online at <a href="https://ccsd.net/parents/enrollment" target="_blank">register.ccsd.net</a> or visit their zoned school. After completing the online registration, parents/guardians must bring the required documents to their child’s zoned school to complete the registration process. Parents/Guardians should contact their zoned school for questions regarding registration.</p>
+
+                                        <p>Visit <a href="https://ccsd.net/schools/zoning/" target="_blank">ccsd.net/zoning</a> or call Demographics, Zoning, and GIS at <a href="tel:(702)-799-6430">702-799-6430</a> for zoning information.</p>
+
+
+
+                                        </p>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-heading2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapse2">
+                                        Age and Entrance Requirements
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading2">
+                                    <div class="accordion-body">
+                                        <p>Children must meet the following minimum age and entrance requirements on or before August 1 to be admitted to kindergarten, first, or second grade (Nevada Revised Statutes [NRS] 392.040):</p>
+                                        <p><strong>✔ Kindergarten Students</strong> must have attained the age of five years old by August 1 to attend kindergarten.</p>
+
+                                        <p><strong>✔ Grade 1 Students</strong> must have attained the age of six years old by August 1 and demonstrate proof of completing a minimum of six weeks of kindergarten at a public, charter, or private school. The kindergarten requirement cannot be met via online or a homeschool program. (A student who is enrolled in and successfully completes kindergarten may be promoted to the next grade level regardless of their age during the 2024–2025 school year.)
+                                        <p align="center">OR</p>
+                                        <p><strong>✔</strong> Demonstrate proof of completing kindergarten and promotion to first grade while being a resident of another state/country in compliance with the age and entrance requirements of that state/country. Proof must be verified through a report card issued by the last out-of-district public, charter or private kindergarten.</p>
+                                        <p>Children who have attained the age of six who do not meet the entrance requirements of Grade 1 will be placed in kindergarten. </p>
+
+                                        <p><strong>✔ Grade 2 Students</strong> must have attained the age of seven years old and demonstrate proof of completing kindergarten and first grade at a public, charter, or private school. (A student who is enrolled in and successfully completes first grade may be promoted to the next grade level regardless of their age during the 2024–2025 school year.)</p>
+
+                                        <p>Children who have attained the age of seven who do not meet the entrance requirements of Grade 2 will be assessed to determine if the student is developmentally ready for first or second grade.</p>
+
+                                        <p>Children in Nevada between the ages of six and 18 must be enrolled in and attend school for the entire time school is in session, pursuant to NRS 392.040.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="panelsStayOpen-heading3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapse3">
+                                        Registration Required Documents
+                                    </button>
+                                </h2>
+                                <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-heading3">
+                                    <div class="accordion-body">
+
+                                        <p><strong>1. Proof of Address</strong>: One form of proof of address is required. A recent utility bill (telephone and cable bills are not acceptable), current mortgage statement, rental receipt, residential lease agreement, or sales contract are acceptable forms of proof of address. </p>
+
+                                        <p><strong>2. Parent/Guardian Personal Identification</strong>: A driver’s license, picture identification, and/or passport are acceptable forms of personal identification. Permanent and temporary guardians should be prepared to provide proof of guardianship at the time of registration. </p>
+
+                                        <p><strong>3. Proof of Child’s Identity</strong>: An original birth certificate, passport, or certified birth card issued by a health district are acceptable documents for proof of a child's identity. </p>
+
+                                        <p><strong>4. Immunizations:  Nevada law requires public school students to be immunized. Parents/Guardians also must provide an appropriate valid certificate with the documentation. Immunization requirements are outlined in NRS 392.435.</strong></p>
+
+                                        <p>Unless excused because of religious belief or medical condition, a child may not be enrolled in a public school within Nevada unless the child has been immunized and has received the proper boosters for that immunization or is complying with the schedules established pursuant to NRS 439.550.</p>
+
+                                        <p>For detailed information concerning immunization requirements for children attending CCSD schools, visit <a href="https://ccsd.net/parents/enrollment#proofImm" target="_blank">Student Enrollment Information</a>.</p>
+
+                                        For assistance with obtaining immunizations, parents/guardians may contact the Southern Nevada Health District at <a href="tel:(702)-759-0850">702-759-0850</a>.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <!-- 				end the accordian -->
+                        </div>
+                    </div>
                 </div>
+                <!-- 				end the accordian -->
 
-                <!-- Login Form -->
-                <div class="styled-form">
-                    <div id="form-messages"></div>
-                    <form id="contact-form" method="post" action="mailer.php">
-                        <div class="row clearfix">
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-25">
-                                <input type="text" id="Name" name="First Name" value="" placeholder="First Name" required>
-                            </div>
 
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-25">
-                                <input type="text" id="last" name="lname" value="" placeholder="Last Name" required>
-                            </div>
+                <!-- Video Column -->
 
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-25">
-                                <input type="email" id="email" name="email" value="" placeholder="Email address " required>
-                            </div>
 
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-25">
-                                <input type="text" id="user" name="phone_number" value="" placeholder="Username" required>
-                            </div>
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-25">
-                                <input type="text" id="puser" name="Password" value="" placeholder="Password" required>
-                            </div>
-                            <!-- Form Group -->
-                            <div class="form-group col-lg-12 mb-35">
-                                <input type="text" id="Confirm" name="Confirm Password" value="" placeholder="Confirm Password" required>
-                            </div>
+                <div class="video-column col-lg-4">
+                    <div class="inner-column">
+                        <div class="course-features-info" style="margin-top:-1px;">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li class="lectures-feature">
+                                    <span class="label"><a href="https://ccsd.net/parents/enrollment#proofImm" target="_blank">Immunization Requirements</a></span>
+                                </li>
 
-                            <div class="form-group col-lg-12 col-md-12 col-sm-12 text-center mb-25">
-                                <button type="submit" class="readon register-btn"><span class="txt">Sign Up</span></button>
-                            </div>
+                                <li class="quizzes-feature">
+                                    <span class="label"><a href="https://ccsd.net/parents/enrollment" target="_blank">Enrollment Information</a></span>
+                                </li>
 
-                            <div class="form-group col-lg-12 col-md-12 col-sm-12">
-                                <div class="users">Already have an account? <a href="login.html">Sign In</a></div>
-                            </div>
+                                <li class="duration-feature">
+                                    <span class="label"><a href="https://ccsd.net/schools/zoning/" target="_blank">Zoning Information</a></span>
+                                </li>
 
+
+                            </ul>
                         </div>
 
-                    </form>
-                </div>
 
+                        <div w3-include-html="bts-side-bar.html"></div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
-    <!-- End Login Section -->
 
-</div>
-<!-- Main content End -->
+    <!-- End main section -->
 
-<!-- Footer Start -->
-<footer id="rs-footer" class="rs-footer home9-style main-home">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                    <div class="footer-logo mb-30">
-                        <a href="index.html"><img src="assets/images/lite-logo.png" alt=""></a>
-                    </div>
-                    <div class="textwidget white-color pr-60 md-pr-15"><p>We denounce with righteous indi gnation and dislike men who are so beguiled and demoralized by the charms of pleasure of your moment, so blinded by desire those who fail weakness.</p>
-                    </div>
-                    <ul class="footer_social">
-                        <li>
-                            <a href="#" target="_blank"><span><i class="fa fa-facebook"></i></span></a>
-                        </li>
-                        <li>
-                            <a href="# " target="_blank"><span><i class="fa fa-twitter"></i></span></a>
-                        </li>
 
-                        <li>
-                            <a href="# " target="_blank"><span><i class="fa fa-pinterest-p"></i></span></a>
-                        </li>
-                        <li>
-                            <a href="# " target="_blank"><span><i class="fa fa-google-plus-square"></i></span></a>
-                        </li>
-                        <li>
-                            <a href="# " target="_blank"><span><i class="fa fa-instagram"></i></span></a>
-                        </li>
+    <!-- Main content End -->
 
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget md-mb-50">
-                    <h3 class="widget-title">Address</h3>
-                    <ul class="address-widget">
-                        <li>
-                            <i class="flaticon-location"></i>
-                            <div class="desc">374 William S Canning Blvd, River MA 2721, USA</div>
-                        </li>
-                        <li>
-                            <i class="flaticon-call"></i>
-                            <div class="desc">
-                                <a href="tel:(+880)155-69569">(+880)155-69569</a>
-                            </div>
-                        </li>
-                        <li>
-                            <i class="flaticon-email"></i>
-                            <div class="desc">
-                                <a href="mailto:support@rstheme.com">support@rstheme.com</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 pl-50 md-pl-15 footer-widget md-mb-50">
-                    <h3 class="widget-title">Courses</h3>
-                    <ul class="site-map">
-                        <li><a href="#">Courses</a></li>
-                        <li><a href="#">Course Two</a></li>
-                        <li><a href="#">Single Course</a></li>
-                        <li><a href="#">Profile</a></li>
-                        <li><a href="#">Login/Register</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
-                    <h3 class="widget-title">Recent Posts</h3>
-                    <div class="recent-post mb-20">
-                        <div class="post-img">
-                            <img src="assets/images/footer/1.jpg" alt="">
+
+    <!-- Footer Start -->
+    <div w3-include-html="bts-footer-nav.html"></div>
+
+
+
+    <!-- Footer End -->
+
+    <!-- start scrollUp  -->
+    <div id="scrollUp" class="orange-color">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!-- End scrollUp  -->
+
+    <!-- Search Modal Start -->
+    <div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
+        <button type="button" class="close" data-bs-dismiss="modal">
+            <span class="flaticon-cross"></span>
+        </button>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="search-block clearfix">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" placeholder="Search Here..." type="text">
                         </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">University while the lovely valley team work</a>
-                            </div>
-                            <span class="post-date">
-                                        <i class="fa fa-calendar"></i>
-                                        September 20, 2020
-                                    </span>
-                        </div>
-                    </div>
-                    <div class="recent-post mb-20 md-pb-0">
-                        <div class="post-img">
-                            <img src="assets/images/footer/2.jpg" alt="">
-                        </div>
-                        <div class="post-item">
-                            <div class="post-desc">
-                                <a href="#">High school program starting soon 2021</a>
-                            </div>
-                            <span class="post-date">
-                                       <i class="fa fa-calendar-check-o"></i>
-                                        September 14, 2020
-                                    </span>
-                        </div>
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="footer-bottom">
-        <div class="container">
-            <div class="row y-middle">
-                <div class="col-lg-6 md-mb-20">
-                    <div class="copyright">
-                        <p>&copy; 2020 All Rights Reserved. Developed By <a href="http://rstheme.com/">RSTheme</a></p>
-                    </div>
-                </div>
-                <div class="col-lg-6 text-end md-text-start">
-                    <ul class="copy-right-menu">
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- Footer End -->
+    <!-- Search Modal End -->
 
-<!-- start scrollUp  -->
-<div id="scrollUp" class="orange-color">
-    <i class="fa fa-angle-up"></i>
-</div>
-<!-- End scrollUp  -->
+    <!-- modernizr js -->
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            /*loop through a collection of all HTML elements:*/
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                /*search for elements with a certain atrribute:*/
+                file = elmnt.getAttribute("w3-include-html");
+                if (file) {
+                    /*make an HTTP request using the attribute value as the file name:*/
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            /*remove the attribute, and call this function once more:*/
+                            elmnt.removeAttribute("w3-include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    /*exit the function:*/
+                    return;
+                }
+            }
+        };
+    </script>
+    <script>
+        includeHTML();
+    </script>
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <!-- jquery latest version -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap v5.0.2 js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- magnific popup js -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- Menu js -->
+    <script src="assets/js/rsmenu-main.js"></script>
+    <!-- wow js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- contact form js -->
+    <script src="assets/js/contact.form.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
 
-<!-- Search Modal Start -->
-<div class="modal fade search-modal" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <button type="button" class="close" data-bs-dismiss="modal">
-        <span class="flaticon-cross"></span>
-    </button>
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="search-block clearfix">
-                <form>
-                    <div class="form-group">
-                        <input class="form-control" placeholder="Search Here..." type="text">
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Search Modal End -->
-
-<!-- modernizr js -->
-<script src="assets/js/modernizr-2.8.3.min.js"></script>
-<!-- jquery latest version -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- Bootstrap v5.0.2 js -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- Menu js -->
-<script src="assets/js/rsmenu-main.js"></script>
-<!-- op nav js -->
-<script src="assets/js/jquery.nav.js"></script>
-<!-- wow js -->
-<script src="assets/js/wow.min.js"></script>
-<!-- plugins js -->
-<script src="assets/js/plugins.js"></script>
-<!-- magnific popup js -->
-<script src="assets/js/jquery.magnific-popup.min.js"></script>
-<!-- contact form js -->
-<script src="assets/js/contact.form.js"></script>
-<!-- main js -->
-<script src="assets/js/main.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script>
+        (function(d){
+            var s = d.createElement("script");
+            /* uncomment the following line to override default position*/
+            /* s.setAttribute("data-position", 1);*/
+            /* uncomment the following line to override default size (values: small, large)*/
+            /* s.setAttribute("data-size", "large");*/
+            /* uncomment the following line to override default language (e.g., fr, de, es, he, nl, etc.)*/
+            /* s.setAttribute("data-language", "null");*/
+            /* uncomment the following line to override color set via widget (e.g., #053f67)*/
+            /* s.setAttribute("data-color", "#0048FF");*/
+            /* uncomment the following line to override type set via widget (1=person, 2=chair, 3=eye, 4=text)*/
+            /* s.setAttribute("data-type", "1");*/
+            /* s.setAttribute("data-statement_text:", "Our Accessibility Statement");*/
+            /* s.setAttribute("data-statement_url", "http://www.example.com/accessibility";*/
+            /* uncomment the following line to override support on mobile devices*/
+            /* s.setAttribute("data-mobile", true);*/
+            /* uncomment the following line to set custom trigger action for accessibility menu*/
+            /* s.setAttribute("data-trigger", "triggerId")*/
+            s.setAttribute("data-account", "8oeraXEIqB");
+            s.setAttribute("src", "https://cdn.userway.org/widget.js");
+            (d.body || d.head).appendChild(s);})(document)
+    </script>
 </body>
 </html>
