@@ -11,7 +11,7 @@
     <?php include('includes/hp-header.php'); ?>
 
     <!-- About Section  -->
-    <?php include('includes/sup-about-section.php.php'); ?>
+    <?php include('includes/sup-about-section.php'); ?>
 </div>
 <div class="clear"><p>&nbsp;</p></div>
 
