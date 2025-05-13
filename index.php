@@ -8,16 +8,16 @@
 <!-- Main content Start -->
 <div class="main-content">
     <!-- Header -->
-    <?php include('includes/hp-header.php'); ?>
+    <?php include('includes/homepage/header.php'); ?>
 
     <!-- About Section  -->
-    <?php include('includes/sup-about-section.php'); ?>
+    <?php include('includes/homepage/sup-about-section.php'); ?>
 </div>
 <div class="clear"><p>&nbsp;</p></div>
 
 
 <!-- CTA Section  -->
-<?php include('includes/cta/hp-cta.php'); ?>
+<?php include('includes/cta/homepage/cta.php'); ?>
 
 <!-- Faq Section Start -->
 <?php //include('includes/faqs.php') ?>

@@ -14,8 +14,7 @@
 <!--Preloader area End here-->
 
 <!--Full width header Start-->
-<div w3-include-html="bts-header-nav-mega.html"></div>
-<!--Full width header End-->
+<?php include('includes/nav.php'); ?><!--Full width header End-->
 
 <!-- Main content Start -->
 <div class="main-content">
