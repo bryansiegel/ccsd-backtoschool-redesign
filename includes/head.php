@@ -4,17 +4,27 @@
 <head>
     <!-- meta tag -->
     <meta charset="utf-8">
-    <title>Back to School</title>
-    <meta name="description" content="2024-2025 Clark County School District Back to School and Legal Guides">
+
+    <?php
+    //change title based upon uri
+    $currentUri = $_SERVER['REQUEST_URI'];
+    if ($currentUri == "/backtoschool/") { ?>
+        <title>Back to School</title>
+    <?php } elseif ($currentUri == "/backtoschool/registration.php") { ?>
+        <title>Registration</title>
+    <?php } ?>
+
+<!--    <meta name="description" content="2024-2025 Clark County School District Back to School and Legal Guides">-->
     <!-- responsive tag -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta property="og:title" content="Back to School"/>
-    <meta property="og:image" content="https://ccsd.net/district/backtoschool/assets/images/breadcrumbs/register-bts.jpg"/>
-    <meta property="og:description" content='2024-2025 Clark County School District Back to School and Legal Guides'/>
-    <meta property="og:url" content="https://ccsd.net/district/backtoschool/index.html"/>
-    <meta property="og:image:width" content="770" />
-    <meta property="og:image:height" content="426" />
+<!--    <meta property="og:title" content="Back to School"/>-->
+<!--    <meta property="og:image"-->
+<!--          content="https://ccsd.net/district/backtoschool/assets/images/breadcrumbs/register-bts.jpg"/>-->
+<!--    <meta property="og:description" content='2024-2025 Clark County School District Back to School and Legal Guides'/>-->
+<!--    <meta property="og:url" content="https://ccsd.net/district/backtoschool/index.html"/>-->
+<!--    <meta property="og:image:width" content="770"/>-->
+<!--    <meta property="og:image:height" content="426"/>-->
     <!-- favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
     <!-- Bootstrap v5.0.2 css -->
@@ -40,7 +50,8 @@
     <!-- spacing css -->
     <link rel="stylesheet" type="text/css" href="assets/css/rs-spacing.css">
     <!-- style css -->
-    <link rel="stylesheet" type="text/css" href="style.css"> <!-- This stylesheet dynamically changed from style.less -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- This stylesheet dynamically changed from style.less -->
     <!-- responsive css -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
     <!--[if lt IE 9]>
@@ -51,7 +62,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X42CPJS5R"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-2X42CPJS5R');
