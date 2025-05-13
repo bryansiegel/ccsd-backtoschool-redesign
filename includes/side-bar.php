@@ -5,11 +5,11 @@
     </div>
     <div class="clear"><p>&nbsp;</p></div>
     <div class="banner-btn">
-        <a class="readon banner-style" href="legal-notices.html" target="_self" style="text-wrap:nowrap;">Legal Notices</a>
+        <a class="readon banner-style" href="legal-notices.php" target="_self" style="text-wrap:nowrap;">Legal Notices</a>
     </div>
     <div class="clear"><p>&nbsp;</p></div>
     <div class="banner-btn" >
-        <a class="readon banner-style" href="transportation.html" target="_self" style="max-width: 260px;">Transportation</a>
+        <a class="readon banner-style" href="transportation.php" target="_self" style="max-width: 260px;">Transportation</a>
     </div>
     <div class="clear"></div>
 </div>
