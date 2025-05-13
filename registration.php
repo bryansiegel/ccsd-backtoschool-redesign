@@ -1,6 +1,6 @@
 <?php include('includes/head.php') ?>
-<body class="defult-home">
 
+<body class="defult-home">
 
 <!-- Nav -->
 <?php include('includes/nav.php'); ?>
@@ -25,9 +25,10 @@
     <section class="intro-section gray-bg pt-94 pb-100 md-pt-64 md-pb-70">
         <div class="container">
             <div class="row clearfix">
-                <!-- Content Column -->
+<!--                Accordion-->
                 <?php include('includes/about/accordion.php') ?>
 
+<!--                Quicklinks-->
                 <?php include('includes/about/quicklinks.php') ?>
             </div>
         </div>
